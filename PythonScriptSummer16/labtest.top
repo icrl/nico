@@ -1,0 +1,6 @@
+topic: ~labtest ()
+language: enu
+
+concept:(names) [caitlin heather kat kaya mahima raeesa ranjini rebecca sumatra]
+
+u:(hey nico my name is _~names) Hi $1, how are you doing today? $name=$1

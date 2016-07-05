@@ -1,0 +1,13 @@
+topic: ~scn1()
+language: enu
+
+u:(Hey Nico) ^rand[Hello Hi Howdy Hey]
+u:(Are you ready to learn?) Yes! Let's go.
+u:(Define slope) Slope is the rise between two points divided by the run between those points.
+u:(Good job!) Thank you.
+u:(Let's practice) Ok.
+u:(Find the slope between zero zero and two one) The slope is two!
+u:(Good job!) Yay!
+
+recover:
+u:(_*) I didn't understand that.

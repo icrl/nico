@@ -1,0 +1,5 @@
+topic: ~scn2()
+language: enu
+
+u:(Hey Nico) ^rand[Hello Hey Howdy "What's up"]
+u:(I'm thinking of a shape) Great! 

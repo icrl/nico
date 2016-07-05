@@ -1,0 +1,17 @@
+topic: ~scn1()
+language: enu
+
+concept: (num) [zero one two]
+
+u:(Hey Nico) ^rand[Hello Hi Howdy Hey]
+u:(Are you ready to learn?) Yes! Let's go.
+u:(Define slope) Slope is the rise between two points divided by the run between those points.
+u:(Good job!) Thank you.
+u:(Let's practice) Ok.
+u:(Find the slope between zero zero and _~num _~num) Hmm, let me think. $x2 = $1 $y2 = $2
+u:(Do you need help?) Yes please.
+u:(Divide $y2 by $x2) Oh! I get it now.
+u:(Well done) Yay!
+
+recover:
+u:(_*) I didn't understand that.

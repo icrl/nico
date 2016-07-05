@@ -1,0 +1,11 @@
+topic: ~introduction ()
+language:enu
+
+concept:(greetings) ^rand[hi hello "hey there"]
+
+concept:(wine) [red white] wine
+concept:(alcohol) [beer ~wine]
+
+u:(~greetings) ~greetings
+u:(do you have _~drink) yes, I have $1
+u:(I want to drink something) do you want ~alcohol?
