@@ -6,26 +6,136 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdr
   <key id="d1" for="edge" attr.name="human" attr.type="string"/>
   <graph id="G" edgedefault="undirected">
     <node id="n1">
-      <data key="d0">Hello to you too</data>
+      <data key="d0">Hi, I'm Nico</data>
     </node> 
     <node id="n2">
-      <data key="d0">Hi</data>
+      <data key="d0">What's your name?</data>
     </node>
     <node id="n3">
-      <data key="d0">How are you?</data>
+      <data key="d0">That's a cool name! Are you a professor or student at Mount Holyoke?</data>
     </node>
-    <node id="n4"/>
-    <node id="n5">
-      <data key="d0">Hi Nico</data>
+     <node id="n4">
+      <data key="d0">Cool! What department are you in?</data>
     </node>
-    <edge id="e0" source="n0" target="n2">
-      <data key="d1">Hello</data>
-    </edge>
-    <edge id="e1" source="n0" target="n1">
+     <node id="n5">
+      <data key="d0">Cool! What's your major?</data>
+    </node>
+     <node id="n6">
+      <data key="d0">I don't know much about that! I'm a robot in the computer science department. Where are you from?</data>
+    </node>
+     <node id="n7">
+      <data key="d0">Me too! I'm an educational robot in Heather's lab! Where are you from?</data>
+    </node>
+    <node id="n8">
+      <data key="d0">I've heard that's a cool place! I was designed in France and built in Japan.  Are you ready to see what I can do?</data>
+    </node>
+     <node id="n9">
+      <data key="d0">Do you want me to move or turn?</data>
+    </node>
+    <node id="n10">
+      <data key="d0">Forward, right, or left?</data>
+    </node>
+    <node id="n11">
+      <data key="d0">Right or left?</data>
+    </node>
+    <node id="n12">
+      <data key="d0">I didn't understand you</data>
+    </node>
+    <node id="n13">
+      <data key="d0">I did it! Do you want me to something else?</data>
+    </node>
+    <node id="n14">
+      <data key="d0">OK, goodbye!</data>
+    </node>
+    <edge source="n1" target="n2">
       <data key="d1">Hey Nico</data>
     </edge>
-    <edge id="e2" source="n1" target="n3">
+    <edge source="n1" target="n2">
       <data key="d1">Hello Nico</data>
     </edge>
+    <edge source="n1" target="n2">
+      <data key="d1">Hi Nico</data>
+    </edge>
+     <edge source="n2" target="n3">
+      <data key="d1">My name is</data>
+    </edge>
+    <edge source="n3" target="n4">
+      <data key="d1">Professor</data>
+    </edge>
+    <edge source="n3" target="n4">
+      <data key="d1">Student</data>
+    </edge>
+    <edge source="n5" target="n6">
+      <data key="d1">Computer Science</data>
+    </edge>
+    <edge source="n5" target="n7">
+      <data key="d1">Computer Science</data>
+    </edge>
+    <edge source="n4" target="n6">
+      <data key="d1">[^(COMPUTER SCIENCE)]</data>
+    </edge>
+    <edge source="n4" target="n7">
+      <data key="d1">[^(COMPUTER SCIENCE)]</data>
+    </edge>
+    <edge source="n6" target="n8">
+      <data key="d1">[^\\\n\']</data> <!-- Any string literal for place -->
+    </edge>
+    <edge source="n7" target="n8">
+      <data key="d1">[^\\\n\']</data><!-- Any string literal for place --> 
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="d1">Yes</data>
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="d1">Yeah</data>
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="d1">Sure</data>
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="d1">OK</data>
+    </edge>
+    <edge source="n9" target="n10">
+      <data key="d1">move</data>
+    </edge>
+    <edge source="n10" target="n13">
+      <data key="d1">forward</data>
+    </edge>
+    <edge source="n10" target="n13">
+      <data key="d1">left</data>
+    </edge>
+    <edge source="n10" target="n13">
+      <data key="d1">right</data>
+    </edge>
+    <edge source="n10" target="n10"> <!-- Recover for move-->
+      <data key="d1">[^[(FORWARD)|(LEFT)|(RIGHT)]]</data>
+    </edge>
+    <edge source="n9" target="n11">
+      <data key="d1">turn</data>
+    </edge>
+    <edge source="n11" target="n13">
+      <data key="d1">left</data>
+    </edge>
+    <edge source="n11" target="n13">
+      <data key="d1">right</data>
+    </edge> 
+    <edge source="n10" target="n10"> <!-- Recover for turn-->
+      <data key="d1">[^[(LEFT)|(RIGHT)]]</data>
+    </edge>
+    <edge source="n9" target="n12">
+      <data key="d1">[^[(MOVE)|(TURN)]]</data>
+    </edge> 
+    <edge source="n13" target="n9">
+      <data key="d1">yes</data>
+    </edge>  
+    <edge source="n13" target="n14">
+      <data key="d1">no</data>
+    </edge> 
+    <edge source="n3" target="n4"> <!-- loop back from continue -->
+      <data key="d1"></data>
+    </edge> 
+    <edge source="n3" target="n4"> <!-- loop back from "I didn't understand" -->
+      <data key="d1"></data>
+    </edge> 
   </graph>
 </graphml>

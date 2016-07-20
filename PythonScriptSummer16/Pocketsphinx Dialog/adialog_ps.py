@@ -26,24 +26,14 @@ robotIP = "nico.d.mtholyoke.edu"
 robot_port = 9959
 
 class ttsconvert():
-    #myBroker = ALBroker("myBroker", "0.0.0.0",
-                        #0, robotIP, robot_port)
-    print ("here")
+    
     global tts
     #tts = ALProxy("ALTextToSpeech", robotIP, 9559)
-    #tts.say("dsklj")
     
-    def __init__(self):
-        # initiliaze
-	#ALModule.__init__(self, name)
-	
-        #global memory
-        #memory = ALProxy("ALMemory")
-	
-	# Import the graphml to be read later	
+    def __init__(self):	
 	G = nx.read_graphml("write_graphml.graphml", unicode)
 	
-	root = 'n0'
+	root = 'n1'
 	current = root
 	
 	# Clear words.log
@@ -51,7 +41,7 @@ class ttsconvert():
 	f.seek(0)
 	f.truncate()
 	
-	
+
 	# Clear clean.log
 	with open("clean.log", "w"):
 	    pass
@@ -62,30 +52,29 @@ class ttsconvert():
  	    line = f.readline() 
 	    # If the user said something
 	    if line:
-		print ("recognized: %s", line)
 		# The lines with dialogue all begin with a numerical value
 		if line[0][:1] in '0123456789':
 		# remove 9 numbers, colon, and space from the beginning, and any whitespace from the end of the line
 		   
 		    speech = line[11:].rstrip()
 		    print speech
-		
+			
 		    # Search through all edges connected to the current node
 		    for e in G.edges(current, data=True):
-		    	
+		    	#print 'IMPORTANT %s' %str(e[2].values()[0])
 		        # If what was spoken matches the 'spoken' attribute of the edge
-			if str(speech) == str(e[2].values()[0]):
-		        	# Switch the current node to be the node the edge goes to
+			if str(speech).upper() == str(e[2].values()[0]):
+						
+		        # Switch the current node to be the node the edge goes to
 				current = e[1]
-		        
-		        	# Get the dialogue stored in the new node and save it in 'output'
-				output = G.node[current]['color']
+		        	
+		        # Get the dialogue stored in the new node and save it in 'output'
+				output = G.node[current]['robot']
 				print 'OUTPUT: %s' %output
 			
-				
-	    			#tts.say(output)
+	    		#tts.say(str(output))
 		        
-		        	# Add 'output' to the top of clean.log
+		        # Add 'output' to the top of clean.log
 				with open("clean.log","r+") as g:
 		            		# Read everything from clean.log into 'content'
 					content = g.read()
@@ -95,7 +84,7 @@ class ttsconvert():
 		            		g.write(output.rstrip('\r\n')+'\n'+content)
 		            		g.close()
 		                
-		        		# If there are no outgoing edges from the current node, go back to the root
+		        # If there are no outgoing edges from the current node, go back to the root
 				if G.out_degree(current) == 0:
 					current = root
 			
