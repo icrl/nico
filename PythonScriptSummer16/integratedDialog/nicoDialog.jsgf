@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar nico_dialog;
+
+<greeting> = (HI | HEY | HELLO) [NICO]
+<name> = MY NAME IS
+<roles> = (PROFESSOR | STUDENT)
+<dept> = [COMPUTER SCIENCE]
+<yesno> = (YES | SURE | OK | YEAH | NO)
+<action> = (MOVE | TURN)
+<direction> = (RIGHT | LEFT | FORWARD)
+
+public <command> = <greeting> | <name> | <roles> | <dept> | <confirmation> | <action> | <direction>
