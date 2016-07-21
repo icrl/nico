@@ -34,22 +34,22 @@
 <data key="d1">STUDENT</data>
 </edge>
 
-<node id="n4"><data key="d0">Are you in the computer science department?</data></node>
+<node id="n4"><data key="d0">What department are you in?</data></node>
 
 <edge source="n4" target="n6">
-<data key="d1">NO</data>
+<data key="d1">[^((?!(COMPUTER SCIENCE)).)*$]</data>
 </edge>
 <edge source="n4" target="n7">
-<data key="d1">YES</data>
+<data key="d1">COMPUTER SCIENCE</data>
 </edge>
 
-<node id="n5"><data key="d0">Oh cool! Are you a computer science major?</data></node>
+<node id="n5"><data key="d0">Oh cool! What's your major?</data></node>
 
 <edge source="n5" target="n6">
-<data key="d1">NO</data>
+<data key="d1">[^((?!(COMPUTER SCIENCE)).)*$]</data>
 </edge>
 <edge source="n5" target="n7">
-<data key="d1">YES</data>
+<data key="d1">COMPUTER SCIENCE</data>
 </edge>
 
 <node id="n6"><data key="d0">You should visit sometime! I'm a educational robot in Heather Pon-Barry's lab. Have you ever played with me before?</data></node>
