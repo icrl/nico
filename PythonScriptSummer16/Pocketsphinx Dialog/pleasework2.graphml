@@ -52,7 +52,7 @@
 <data key="d1">YES</data>
 </edge>
 
-<node id="n6">You should visit sometime! I'm a educational robot in Heather Pon-Barry's lab. Have you ever played with me before?<data key="d0"></data></node>
+<node id="n6"><data key="d0">You should visit sometime! I'm a educational robot in Heather Pon-Barry's lab. Have you ever played with me before?</data></node>
 
 <edge source="n6" target="n8">
 <data key="d1">NO</data>
@@ -61,7 +61,7 @@
 <data key="d1">YES</data>
 </edge>
 
-<node id="n7">Me too! I'm a educational robot in Heather Pon-Barry's lab. Have you ever played with me before?<data key="d0"></data></node>
+<node id="n7"><data key="d0">Me too! I'm a educational robot in Heather Pon-Barry's lab. Have you ever played with me before?</data></node>
 
 <edge source="n7" target="n8">
 <data key="d1">NO</data>
@@ -70,7 +70,7 @@
 <data key="d1">YES</data>
 </edge>
 
-<node id="n8">There's a first time for everything! Here I go!<data key="d0"></data></node>
+<node id="n8"><data key="d0">There's a first time for everything! Here I go!</data></node>
 
 
 </graph></graphml>
