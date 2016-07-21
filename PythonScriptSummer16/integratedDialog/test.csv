@@ -1,0 +1,42 @@
+ Time,human,robot
+Wed Jul 20 16:29:48 2016,,Oh ! What am I doing on the floor ? \style=neutral\ \vct=105\ \rspd=110\
+Wed Jul 20 16:30:05 2016,,"Hey , I'm back ! That's much better ."
+Wed Jul 20 16:31:03 2016,Hello,
+Wed Jul 20 16:31:04 2016,,What's your name  ?
+Wed Jul 20 16:31:07 2016,my name is <...>,
+Wed Jul 20 16:31:09 2016,,That's a cool name !   Are you a professor or student at Mount Holyoke  ?
+Wed Jul 20 16:31:16 2016,student,
+Wed Jul 20 16:31:20 2016,,Cool ! What's your major  ?
+Wed Jul 20 16:31:24 2016,computer science,
+Wed Jul 20 16:31:25 2016,,Me too ! I'm an educational robot in   Heather's lab ! Where are you from  ?
+Wed Jul 20 16:31:32 2016,new york,
+Wed Jul 20 16:31:33 2016,,I've heard   that's a cool place ! I was designed in France and   built in Japan. Are you   ready to see what I can do  ?
+Wed Jul 20 16:31:41 2016,yes,
+Wed Jul 20 16:31:43 2016,,Do   you want me to move or turn  ?
+Wed Jul 20 16:31:48 2016,move,
+Wed Jul 20 16:31:49 2016,,"Forward , left , or right  ?"
+Wed Jul 20 16:31:53 2016,forward,
+Wed Jul 20 16:31:54 2016,,I moved forward ! Thanks for playing with me   !
+Wed Jul 20 16:32:00 2016,not i've got on,
+Wed Jul 20 16:32:08 2016,beep again,
+Wed Jul 20 16:32:18 2016,,I've turned the bleeping back on   !
+Wed Jul 20 16:32:24 2016,Hi Nico,
+Wed Jul 20 16:32:25 2016,,hi human   !
+Wed Jul 20 16:32:27 2016,hello,
+Wed Jul 20 16:32:31 2016,,hello   !
+Wed Jul 20 16:32:37 2016,Hey Nico,
+Wed Jul 20 16:32:38 2016,,What's your name  ?
+Wed Jul 20 16:32:41 2016,my name is <...>,
+Wed Jul 20 16:32:42 2016,,That's a cool name !   Are you a professor or student at Mount Holyoke  ?
+Wed Jul 20 16:32:48 2016,student,
+Wed Jul 20 16:32:49 2016,,Cool ! What's your major  ?
+Wed Jul 20 16:32:52 2016,computer science,
+Wed Jul 20 16:32:55 2016,,Me too ! I'm an educational robot in   Heather's lab ! Where are you from  ?
+Wed Jul 20 16:33:01 2016,handsome york city,
+Wed Jul 20 16:33:03 2016,,I've heard   that's a cool place ! I was designed in France and   built in Japan. Are you   ready to see what I can do  ?
+Wed Jul 20 16:33:11 2016,yeah,
+Wed Jul 20 16:33:12 2016,,Do   you want me to move or turn  ?
+Wed Jul 20 16:33:15 2016,move,
+Wed Jul 20 16:33:16 2016,,"Forward , left , or right  ?"
+Wed Jul 20 16:33:19 2016,right,
+Wed Jul 20 16:33:21 2016,,I moved right ! Thanks for playing with me   !

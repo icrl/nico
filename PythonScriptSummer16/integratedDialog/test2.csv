@@ -1,0 +1,19 @@
+ Time,human,robot
+Thu Jul 21 13:10:10 2016,begin,
+Thu Jul 21 13:10:10 2016,,"Hi , I'm Nico   !"
+Thu Jul 21 13:10:14 2016,Hi Nico,
+Thu Jul 21 13:10:17 2016,,What's your name  ?
+Thu Jul 21 13:10:22 2016,,That's a cool name !   Are you a professor or student at Mount Holyoke  ?
+Thu Jul 21 13:10:19 2016,my name is <...>,
+Thu Jul 21 13:10:27 2016,professor,
+Thu Jul 21 13:10:29 2016,,Cool !   What department are you in  ?
+Thu Jul 21 13:10:32 2016,computer science,
+Thu Jul 21 13:10:33 2016,,Me too ! I'm an educational robot in   Heather's lab ! Where are you from  ?
+Thu Jul 21 13:10:39 2016,they're flu,
+Thu Jul 21 13:10:41 2016,,I've heard   that's a cool place ! I was designed in France and   built in Japan. Are you   ready to see what I can do  ?
+Thu Jul 21 13:10:48 2016,sure,
+Thu Jul 21 13:10:50 2016,,Do   you want me to move or turn  ?
+Thu Jul 21 13:10:57 2016,move,
+Thu Jul 21 13:10:58 2016,,"Forward , left , or right  ?"
+Thu Jul 21 13:11:02 2016,forward,
+Thu Jul 21 13:11:02 2016,,I moved forward ! Thanks for playing with me   !
