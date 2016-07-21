@@ -37,7 +37,7 @@
 <node id="n4"><data key="d0">What department are you in?</data></node>
 
 <edge source="n4" target="n6">
-<data key="d1">[^((?!(COMPUTER SCIENCE)).)*$]</data>
+<data key="d1"></data>
 </edge>
 <edge source="n4" target="n7">
 <data key="d1">COMPUTER SCIENCE</data>
@@ -46,7 +46,7 @@
 <node id="n5"><data key="d0">Oh cool! What's your major?</data></node>
 
 <edge source="n5" target="n6">
-<data key="d1">[^((?!(COMPUTER SCIENCE)).)*$]</data>
+<data key="d1"></data>
 </edge>
 <edge source="n5" target="n7">
 <data key="d1">COMPUTER SCIENCE</data>
