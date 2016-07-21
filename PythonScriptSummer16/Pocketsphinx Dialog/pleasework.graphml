@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+        http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+    <key id="d0" for="node" attr.name="dialogue" attr.type="string"/>
+    <key id="d1" for="edge" attr.name="spoken" attr.type="string"/>
+    <graph id="G" edgedefault="directed"><node id="n1"><data key="d0">root</data></node>
+
+<node id="n2"><data key="d0">Hello! My name is Neeko. Are you a professor or student?</data></node>
+<edge source="n1" target="n2">
+<data key="d1">HI</data>
+</edge>
+<edge source="n1" target="n2">
+<data key="d1">HELLO</data>
+</edge>
+<edge source="n1" target="n2">
+<data key="d1">HEY</data>
+</edge>
+<edge source="n1" target="n2">
+<data key="d1">GREETINGS</data>
+</edge>
+<node id="n3"><data key="d0">What's your name?</data></node>
+<edge source="n2" target="n3">
+<data key="d1">PROFESSOR</data>
+</edge>
+<edge source="n2" target="n3">
+<data key="d1">STUDENT</data>
+</edge>
+<edge source="n3" target="n4">
+<data key="d1">MY NAME IS</data>
+</edge>
+
+<node id="n4"><data key="d0">That's a cool name. Are you in the computer science department?</data></node>
+
+<edge source="n4" target="n5">
+<data key="d1">YES</data>
+</edge>
+<edge source="n4" target="n6">
+<data key="d1">NO</data>
+</edge>
+
+<node id="n5"><data key="d0">Oh cool! Me too</data></node>
+
+<node id="n6"><data key="d0">That's a bad major. What's your new major?</data></node>
+
+<edge source="n6" target="n4">
+<data key="d1">COMPUTER SCIENCE</data>
+</edge>
+
+<edge source="n6" target="n3">
+<data key="d1">NO</data>
+</edge></graph></graphml>
