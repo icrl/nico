@@ -20,6 +20,17 @@
 <edge source="n1" target="n2">
 <data key="d1">GREETINGS</data>
 </edge>
+<data key="d1">HI NICO</data>
+</edge>
+<edge source="n1" target="n2">
+<data key="d1">HELLO NICO</data>
+</edge>
+<edge source="n1" target="n2">
+<data key="d1">HEY NICO</data>
+</edge>
+<edge source="n1" target="n2">
+<data key="d1">GREETINGS NICO</data>
+</edge>
 <node id="n3"><data key="d0">Nice to meet you! Are you faculty, staff, or a student at Mount Holyoke?</data></node>
 <edge source="n2" target="n3">
 <data key="d1">MY NAME IS</data>
@@ -34,7 +45,7 @@
 <data key="d1">STUDENT</data>
 </edge>
 
-<node id="n4"><data key="d0">What department are you in?</data></node>
+<node id="n4"><data key="d0">Cool! What department are you in?</data></node>
 
 <edge source="n4" target="n6">
 <data key="d1"></data>
@@ -43,7 +54,7 @@
 <data key="d1">COMPUTER SCIENCE</data>
 </edge>
 
-<node id="n5"><data key="d0">Oh cool! What's your major?</data></node>
+<node id="n5"><data key="d0">Cool! What's your major?</data></node>
 
 <edge source="n5" target="n6">
 <data key="d1"></data>
@@ -52,7 +63,7 @@
 <data key="d1">COMPUTER SCIENCE</data>
 </edge>
 
-<node id="n6"><data key="d0">You should visit sometime! I'm a educational robot in Heather Pon-Barry's lab. Where are you from?</data></node>
+<node id="n6"><data key="d0">I don't know much about that. I'm an educational robot in the computer science department. You should visit sometime! Where are you from?</data></node>
 
 <edge source="n6" target="n8">
 <data key="d1"></data>
@@ -66,10 +77,18 @@
 </edge>
 
 
-<node id="n8"><data key="d0">There's a first time for everything! Are you ready?</data></node>
+<node id="n8"><data key="d0">I've heard that's a cool place! I was designed in France and built in Japan. Are you ready to see what I can do?</data></node>
 
 <edge source="n8" target="n9">
 <data key="d1">YES</data>
+</edge><edge source="n8" target="n9">
+<data key="d1">YEAH</data>
+</edge>
+<edge source="n8" target="n9">
+<data key="d1">OK</data>
+</edge>
+<edge source="n8" target="n9">
+<data key="d1">SURE</data>
 </edge>
 
 <node id="n9"><data key="d0">Do you want me to move or turn?</data></node>
@@ -106,10 +125,16 @@
 
 <edge source="n12" target="n9">
 <data key="d1">YES</data>
+</edge><edge source="n12" target="n9">
+<data key="d1">YEAH</data>
+</edge>
+<edge source="n12" target="n9">
+<data key="d1">SURE</data>
 </edge>
 <edge source="n12" target="n13">
 <data key="d1">NO</data>
 </edge>
+
 
 <node id="n13"><data key="d0">Ok, bye!</data></node>
 

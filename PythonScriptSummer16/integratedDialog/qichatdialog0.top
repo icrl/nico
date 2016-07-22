@@ -6,11 +6,10 @@ concept: (greeting) [Hey Hello Hi]
 #affirmation
 concept: (affirmation) [yes yeah sure ok]
 
-u:(begin) Hi, I'm Nico!
-u: (~greeting {Nico}) What's your name?
-	u1: (my name is *) That's a cool name! Are you a professor or student at Mount Holyoke?
-		u2: (professor) Cool! What department are you in?
-			u3: (computer science) Me too! I'm an educational robot in Heather's lab! Where are you from?
+u: (~greeting {Nico}) Hi Human! I'm Neeko. What's your name?
+	u1: (my name is *) Nice to meet you! Are you faculty, staff, or a student at Mount Holyoke?
+		u2: ([faculty staff]) Cool! What department are you in?
+			u3: (computer science) Me too! I'm an educational robot in Heather Pon-Barry's lab! Where are you from?
 				u4: (*) I've heard that's a cool place! I was designed in France and built in Japan. Are you ready to see what I can do?
 					u5: (~affirmation) Do you want me to move or turn?
 						u6: (move) Forward, left, or right?
@@ -20,7 +19,7 @@ u: (~greeting {Nico}) What's your name?
 						u6: (turn) Right or left?
 							u7: (right) I turned right! Thanks for playing with me!
 							u7: (left) I turned left! Thanks for playing with me!
-			u3: (*) I don't know much about that! I'm a robot in the computer science department. Where are you from?
+			u3: (*) I don't know much about that! I'm an educational robot in the computer science department. You should visit sometime! Where are you from?
 				u4: (*) I've heard that's a cool place! I was designed in France and built in Japan. Are you ready to see what I can do?
 					u5: (~affirmation) Do you want me to move or turn?
 						u6: (move) Forward, left, or right?
@@ -31,7 +30,7 @@ u: (~greeting {Nico}) What's your name?
 							u7: (right) I turned right! Thanks for playing with me!
 							u7: (left) I turned left! Thanks for playing with me!
 		u2: (student) Cool! What's your major?
-			u3: (computer science) Me too! I'm an educational robot in Heather's lab! Where are you from?
+			u3: (computer science) Me too! I'm an educational robot in Heather Pon-Barry's lab! Where are you from?
 				u4: (*) I've heard that's a cool place! I was designed in France and built in Japan. Are you ready to see what I can do?
 					u5: (~affirmation) Do you want me to move or turn?
 						u6: (move) Forward, left, or right?
@@ -41,7 +40,7 @@ u: (~greeting {Nico}) What's your name?
 						u6: (turn) Right or left?
 							u7: (right) I turned right! Thanks for playing with me!
 							u7: (left) I turned left! Thanks for playing with me!
-			u3: (*) I don't know much about that! I'm a robot in the computer science department. Where are you from?
+			u3: (*) I don't know much about that! I'm an educational robot in the computer science department. You should visit sometime! Where are you from?
 				u4: (*) I've heard that's a cool place! I was designed in France and built in Japan. Are you ready to see what I can do?
 					u5: (~affirmation) Do you want me to move or turn?
 						u6: (move) Forward, left, or right?
