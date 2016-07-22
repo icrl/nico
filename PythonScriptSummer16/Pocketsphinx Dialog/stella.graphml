@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+        http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+    <key id="d0" for="node" attr.name="robot" attr.type="string"/>
+    <key id="d1" for="edge" attr.name="human" attr.type="string"/>
+    <graph id="G" edgedefault="directed"><node id="n1"><data key="d0">root</data></node>
+
+<edge source="n1" target="n2">
+<data key="d1">PLEASE CALL STELLA</data>
+</edge>
+
+<node id="n2"><data key="d0">Sure</data></node>
+
+<edge source="n2" target="n3">
+<data key="d1">ASK HER TO BRING THESE THINGS FROM THE STORE</data>
+</edge>
+
+<node id="n3"><data key="d0">Ok, ready!</data></node>
+
+<edge source="n3" target="n4">
+<data key="d1">SIX SPOONS OF FRESH SNOW PEAS</data>
+</edge>
+
+<node id="n4"><data key="d0">Got it</data></node>
+
+<edge source="n4" target="n5">
+<data key="d1">FIVE THICK SLABS OF BLUE CHEESE</data>
+</edge>
+
+<node id="n5"><data key="d0">I love cheese</data></node>
+
+<edge source="n5" target="n6">
+<data key="d1">MAYBE A SNACK FOR HER BROTHER BOB</data>
+</edge>
+
+<node id="n6"><data key="d0">Bob loves snacks</data></node>
+
+<edge source="n6" target="n7">
+<data key="d1">WE ALSO NEED THINGS FOR THE KIDS</data>
+</edge>
+
+<node id="n7"><data key="d0">What do we need?</data></node>
+
+<edge source="n7" target="n8">
+<data key="d1">A SMALL PLASTIC SNAKE AND A BIG TOY FROG</data>
+</edge>
+
+<node id="n8"><data key="d0">Is that it?</data></node>
+
+<edge source="n8" target="n9">
+<data key="d1">SHE CAN SCOOP THESE THINGS INTO THREE RED BAGS</data>
+</edge>
+
+<node id="n9"><data key="d0">Specific but ok</data></node>
+
+<edge source="n9" target="n10">
+<data key="d1">WE WILL GO MEET HER WEDNESDAY AT THE TRAIN STATION</data>
+</edge>
+
+<node id="n10"><data key="d0">Perfect</data></node>
+
+<edge source="n10" target="n11">
+<data key="d1">YOUR TEST IS COMPLETE</data>
+</edge>
+
+<node id="n11"><data key="d0">Yay!</data></node>
+
+</graph></graphml>
