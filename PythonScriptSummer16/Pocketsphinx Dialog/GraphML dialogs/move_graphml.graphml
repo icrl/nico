@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was written by the JAVA GraphML Library.-->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="robot" attr.type="string"/>
+  <key id="d1" for="edge" attr.name="human" attr.type="string"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n1">
+      <data key="d0">HELLO</data>
+    </node> 
+    <node id="n2">
+      <data key="d0">YES I CAN DO THAT. HOW MANY STEPS</data>
+    </node>
+    <node id="n3">
+      <data key="d0">OKAY, DID I DO THAT RIGHT</data>
+    </node>
+    <edge source="n1" target="n2">
+      <data key="d1">CAN YOU MOVE FORWARD</data>
+    </edge>
+    <edge source="n2" target="n3">
+      <data key="d1">MOVE FORWARD THREE STEPS</data>
+    </edge>
+    <edge source="n2" target="n3">
+      <data key="d1">MOVE LEFT</data>
+    </edge>
+  </graph>
+</graphml>

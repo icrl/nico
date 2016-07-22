@@ -60,16 +60,7 @@ class ttsconvert():
 				# Search through all edges connected to the current node
 				for e in G.edges(current, data=True):
 				
-			    	currentNum = int(current[1:])
-			    	currentNum =+ 1
-			    	current = 'n' + str(currentNum)
-
-			    	# Get the dialogue stored in the new node and save it in 'output'
-					output = G.node[current]['robot']
-					print 'OUTPUT: %s' %output
-					tts.say(str(output))
-
-			    '''# If what was spoken matches the 'spoken' attribute of the edge
+			    # If what was spoken matches the 'spoken' attribute of the edge
 					if str(speech) == str(e[2].values()[0]):
 						# Switch the current node to be the node the edge goes to
 						current = e[1]
@@ -78,7 +69,6 @@ class ttsconvert():
 						output = G.node[current]['robot']
 						print 'OUTPUT: %s' %output
 						tts.say(str(output))
-						'''
 				
 
 

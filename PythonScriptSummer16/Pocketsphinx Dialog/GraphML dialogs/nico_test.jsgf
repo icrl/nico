@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar nico_test; 
+
+<greeting> = (HI | HEY | HELLO) NICO; 
+<action> = MOVE | WALK | SIT | STAND | GO; 
+<direction> = [MOVE | GO | WALK] (LEFT | RIGHT | FORWARD); 
+<steps> = ONE | TWO | THREE | FOUR | FIVE | SIX | SEVEN | EIGHT | NINE;
+<fin> = GOOD JOB | WELL DONE | THANK YOU;
+<yesorno> = YES | NO; 
+public <command> = <greeting> | <action>| <direction>| <steps> | <fin> | <yesorno>;
+

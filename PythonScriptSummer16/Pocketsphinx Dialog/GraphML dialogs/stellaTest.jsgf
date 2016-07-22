@@ -1,0 +1,7 @@
+#JSGF V1.0;
+
+grammar stella_test;
+
+<call> = PLEASE | CALL | STELLA | ASK | HER | TO | BRING | THESE | THINGS | FROM | THE | STORE | SIX | SPOONS | OF | FRESH | SNOW | PEAS | FIVE | THICK | SLABS | BLUE | CHEESE | MAYBE | A | SNACK | FOR | BROTHER | BOB | WE | ALSO | NEED | KIDS | SMALL | PLASTIC | SNAKE | AND | BIG | TOY | FROG | SHE | CAN | SCOOP | INTO | THREE | RED | BAGS | WILL | GO | MEET | WEDNESDAY | AT | TRAIN | STATION | YOUR | TEST | IS | COMPLETE;
+
+public <command> = ( <call> )+ ; 
