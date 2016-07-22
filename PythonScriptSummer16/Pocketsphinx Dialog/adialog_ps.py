@@ -41,9 +41,9 @@ class ttsconvert():
 	
 	root = 'n1'
 	current = root
-		
+	recordData = sys.argv[1]
 	# Clear words.log
-	f = open("words.log","r+")
+	f = open(recordData,"r+")
 	f.seek(0)
 	f.truncate()
 

@@ -4,11 +4,6 @@
 import argparse
 import sys
 import time
-import move_forward
-import move_back
-import move_left
-import move_right
-import turn
 import datetime
 import csv
 
