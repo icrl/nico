@@ -7,6 +7,11 @@ import sys
 import time
 import datetime
 import csv
+import turn
+import move_forward
+import move_left
+import move_right
+import turn
 
 from naoqi import (
 	ALProxy,
@@ -28,7 +33,7 @@ robot_port = 9959
 class ttsconvert():
 	
 	global tts
-	#tts = ALProxy("ALTextToSpeech", robotIP, 9559)
+	tts = ALProxy("ALTextToSpeech", robotIP, 9559)
 	global G
 	#def __init__(self):	
 
@@ -41,7 +46,6 @@ class ttsconvert():
 	f = open("words.log","r+")
 	f.seek(0)
 	f.truncate()
-
 
 	# Clear clean.log
 	with open("clean.log", "w"):
@@ -68,12 +72,8 @@ class ttsconvert():
 							if str(speech) == 'COMPUTER SCIENCE':
 								temp = 'n7'
 							else:
-								print 'in cs if statement'
 								temp = 'n6'
-
-
-								
-
+	
 						elif current == 'n6' or current == 'n7':
 							temp = 'n8'
 							
@@ -85,11 +85,33 @@ class ttsconvert():
 								
 							# Switch the current node to be the node the edge goes to
 							temp = e[1]
-							
+
+						if speech == 'MOVE':
+							action = 'move'
+						if speech == 'TURN':
+							action = 'turn'
+						if speech == 'RIGHT':
+							if action == 'move':
+								move_right.main("nico.d.mtholyoke.edu", 9559, 1)
+							if action == 'turn':
+								turn.main("nico.d.mtholyoke.edu", 9559, "right")
+							time.sleep(2)
+						if speech == 'LEFT':
+							if action == 'move':
+								move_left.main("nico.d.mtholyoke.edu", 9559, 1)
+							if action == 'turn':
+								turn.main("nico.d.mtholyoke.edu", 9559, "left")	
+							time.sleep(2)					
+						if speech == 'FORWARD':
+							move_forward.main("nico.d.mtholyoke.edu", 9559, 1)
+							time.sleep(2)
+
 						current = temp	
 						# Get the dialogue stored in the new node and save it in 'output'
 						output = G.node[current]['robot']
 						print 'OUTPUT: %s' %output
+						tts.say(str(output))
+
 						break
 							# Add 'output' to the top of clean.log
 							# with open("clean.log","r+") as g:
