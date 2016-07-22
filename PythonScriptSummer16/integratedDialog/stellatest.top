@@ -1,8 +1,6 @@
 topic: ~stellatest ()
 language: enu
 
-u:(hey nico my name is _*) Hi $1, how are you doing today?
-u:(i'm great, are you ready to be tested?) Yes! Let's do it.
 u:(please call Stella) Sure
 u:(ask her to bring these things from the store) Ok, ready!
 u:(six spoons of fresh snow peas) Got it
