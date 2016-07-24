@@ -1,0 +1,25 @@
+greetings
+greetings
+(RESPONSE)
+michelle
+(BEEP)
+my name is michelle
+(BEEP)
+(RESPONSE)
+i am a student of mount holyoke
+i am a student at mount holyoke
+(RESPONSE)
+my major is linguistics
+(RESPONSE)
+i'm from nicaragua
+(RESPONSE)
+yes, i am ready
+(RESPONSE)
+uh, yeah
+(BEEP)
+uh, you can move
+i want you to move
+(RESPONSE)
+forward
+(RESPONSE)
+ 
