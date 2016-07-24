@@ -5,7 +5,6 @@ yes
 hello
 yeah
 my name is
-
 faculty
 turn
 my name is
@@ -15,7 +14,6 @@ move
 forward
 staff
 forward
-
 yes
 turn
 right
