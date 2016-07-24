@@ -1,0 +1,18 @@
+ Time,human,robot
+Sat Jul 23 12:34:15 2016,greetings,
+Sat Jul 23 12:34:16 2016,,Hi Human !   I'm Neeko. What's your name  ?
+Sat Jul 23 12:34:19 2016,my name is <...>,
+Sat Jul 23 12:34:21 2016,,"Nice   to meet you ! Are you faculty , staff , or a student at Mount Holyoke  ?"
+Sat Jul 23 12:34:28 2016,student,
+Sat Jul 23 12:34:29 2016,,Cool ! What's your major  ?
+Sat Jul 23 12:34:32 2016,computer science,
+Sat Jul 23 12:34:34 2016,,Me too ! I'm an educational robot in Heather   Pon-Barry's lab ! Where are you from  ?
+Sat Jul 23 12:34:40 2016,i've got worn out,
+Sat Jul 23 12:34:42 2016,,I've heard   that's a cool place ! I was designed in France and   built in Japan. Are you   ready to see what I can do  ?
+Sat Jul 23 12:34:56 2016,yes,
+Sat Jul 23 12:34:57 2016,,Do   you want me to move or turn  ?
+Sat Jul 23 12:35:03 2016,i guess it's,
+Sat Jul 23 12:35:14 2016,turn,
+Sat Jul 23 12:35:15 2016,,Right or left  ?
+Sat Jul 23 12:35:17 2016,left,
+Sat Jul 23 12:35:19 2016,,I turned left ! Thanks for playing with me   !

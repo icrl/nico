@@ -6,7 +6,7 @@ concept: (greeting) [Hey Hello Hi]
 #affirmation
 concept: (affirmation) [yes yeah sure ok]
 
-u: (~greeting {Nico}) Hi Human! I'm Neeko. What's your name?
+u: (greetings {Nico}) Hi Human! I'm Neeko. What's your name?
 	u1: (my name is *) Nice to meet you! Are you faculty, staff, or a student at Mount Holyoke?
 		u2: ([faculty staff]) Cool! What department are you in?
 			u3: (computer science) Me too! I'm an educational robot in Heather Pon-Barry's lab! Where are you from?

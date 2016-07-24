@@ -20,6 +20,7 @@
 <edge source="n1" target="n2">
 <data key="d1">GREETINGS</data>
 </edge>
+<edge source = "n1" target="n2">
 <data key="d1">HI NICO</data>
 </edge>
 <edge source="n1" target="n2">
