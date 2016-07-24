@@ -1,22 +1,22 @@
-HEY NICO
-MY NAME IS
+hey nico
+my name is
 
-HEY NICO
-COMPUTER SCIENCE
-MY NAME IS
-STUDENT
-MY NAME IS
-HEY NICO
-YES
-HELLO NICO
-TURN
-LEFT
-STAFF
-YES
-YEAH
-MOVE
+hey nico
+computer science
+my name is
+student
+my name is
+hey nico
+yes
+hello nico
+turn
+left
+staff
+yes
+yeah
+move
 
-FORWARD
-STAFF
-NO
-HI NICO
+forward
+staff
+no
+hi nico

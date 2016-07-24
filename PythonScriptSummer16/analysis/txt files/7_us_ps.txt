@@ -1,23 +1,23 @@
-NO
-NO
-YES
+no
+no
+yes
 
-HELLO
-YEAH
-MY NAME IS
+hello
+yeah
+my name is
 
-FACULTY
-TURN
-MY NAME IS
-STUDENT
-YES
-MOVE
-FORWARD
-STAFF
-FORWARD
+faculty
+turn
+my name is
+student
+yes
+move
+forward
+staff
+forward
 
-YES
-TURN
-RIGHT
-STAFF
-NO
+yes
+turn
+right
+staff
+no

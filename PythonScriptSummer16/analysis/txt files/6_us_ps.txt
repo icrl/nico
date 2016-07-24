@@ -1,37 +1,37 @@
-HI NICO
+hi nico
 
-MY NAME IS
-YES
-YES
-STUDENT
+my name is
+yes
+yes
+student
 
-STUDENT
-YEAH
-YES
-YEAH
-TURN
+student
+yeah
+yes
+yeah
+turn
 
-RIGHT
-STAFF
-MOVE
-YES
+right
+staff
+move
+yes
 
-MOVE
+move
 
-FORWARD
-STAFF
-YEAH
-TURN
-TURN
-RIGHT
-STAFF
-YEAH
-YEAH
-MOVE
-YEAH
-LEFT
-STAFF
+forward
+staff
+yeah
+turn
+turn
+right
+staff
+yeah
+yeah
+move
+yeah
+left
+staff
 
-RIGHT
-YEAH
-YEAH
+right
+yeah
+yeah
