@@ -1,6 +1,5 @@
 hey nico
 my name is
-
 hey nico
 computer science
 my name is
@@ -15,7 +14,6 @@ staff
 yes
 yeah
 move
-
 forward
 staff
 no
