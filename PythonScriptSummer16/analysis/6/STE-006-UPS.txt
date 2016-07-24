@@ -1,0 +1,54 @@
+hi nico
+(RESPONSE)
+amber
+(BEEP)
+my name is amber
+(RESPONSE)
+(RESPONSE)
+my major is international relations
+---- start again ---
+hi nico
+(RESPONSE)
+my name is amber
+(RESPONSE)
+i am a student
+student
+(RESPONSE)
+<silence/breathing> 
+(RESPONSE)
+i'm from colorado
+(RESPONSE)
+yes
+(RESPONSE)
+uh, turn
+turn
+(RESPONSE)
+right
+(RESPONSE)
+move forward
+yes
+(RESPONSE)
+move
+(RESPONSE)
+forward
+(RESPONSE)
+turn, yes, yes, turn
+(RESPONSE)
+turn
+(RESPONSE)
+right
+(RESPONSE)
+yes
+(RESPONSE)
+move
+move
+(RESPONSE)
+left
+(RESPONSE)
+do you want me to ask him? 
+no
+(RESPONSE)
+
+
+
+

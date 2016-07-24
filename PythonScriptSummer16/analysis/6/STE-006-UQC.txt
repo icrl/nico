@@ -1,0 +1,22 @@
+greetings
+greetings
+(RESPONSE)
+my name is amber
+my name is amber
+(RESPONSE)
+i'm a student
+uh, i'm a student
+(RESPONSE)
+my major is international relations
+(RESPONSE)
+i'm from colorado
+(RESPONSE)
+yes
+(RESPONSE)
+can you say that again?
+yes
+(BEEP)
+i want you to move
+(RESPONSE)
+right
+(RESPONSE)

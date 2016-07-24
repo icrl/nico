@@ -1,0 +1,30 @@
+hello
+hello
+(RESPONSE -- Nuance)
+hello
+(RESPONSE -- Nuance)
+(RESPONSE)
+my name is tricia
+my name is tricia
+(RESPONSE)
+faculty
+(RESPONSE)
+astronomy
+(RESPONSE)
+i'm from japan
+(RESPONSE)
+yes
+yes
+(RESPONSE)
+move
+(RESPONSE)
+forward
+(RESPONSE)
+yes
+yes
+(RESPONSE)
+turn
+(RESPONSE)
+right
+(RESPONSE)
+(RESPONSE)

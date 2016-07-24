@@ -1,0 +1,21 @@
+greetings
+greetings
+(RESPONSE)
+my name is tricia
+(RESPONSE)
+i'm a student
+(RESPONSE)
+i'm a computer science major 
+(RESPONSE)
+i'm from california
+(RESPONSE)
+yep
+yes
+(RESPONSE)
+yes
+uh, can you turn? 
+turn
+turn
+(RESPONSE)
+left
+(RESPONSE)
