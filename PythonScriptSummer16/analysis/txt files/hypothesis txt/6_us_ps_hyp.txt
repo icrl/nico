@@ -1,5 +1,4 @@
 hi nico
-
 my name is
 yes
 yes
@@ -10,14 +9,11 @@ yeah
 yes
 yeah
 turn
-
 right
 staff
 move
 yes
-
 move
-
 forward
 staff
 yeah
@@ -30,8 +26,3 @@ yeah
 move
 yeah
 left
-staff
-
-right
-yeah
-yeah
