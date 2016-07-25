@@ -1,0 +1,56 @@
+<...>
+(RESPONSE)
+my name is doug keller
+my name is doug
+(RESPONSE)
+no, i work for auxiliary services
+i'm a staff, i belong to the staff
+i work as a staff member
+yeah, staff
+(RESPONSE)
+uh...
+(RESPONSE)
+<...>
+(RESPONSE)
+<...>
+(RESPONSE)
+auxiliary services
+uh, you can turn
+you can move
+uh, move
+move
+(RESPONSE)
+right
+right
+(RESPONSE) (moved left)
+mo -
+(RESPONSE)
+move left
+(RESPONSE)
+left
+move left
+(RESPONSE) (moved forward?)
+move right - 
+(RESPONSE)
+move right 
+move left
+turn? turn right
+(RESPONSE)
+turn right
+turn right
+right
+(RESPONSE)
+left
+left
+left
+(kat: when he asks you if you want him to do something else, you have to say either yes or no, and then he'll ask you again, and you'll have to give him an action and then a direction. so right now your possible answers are yes or no)
+yes
+(RESPONSE)
+(kat: so now you can say move or turn)
+move right
+right
+(kat: you have to say the action, so you have to say either move or turn and then he'll ask you the direction)
+turn...right
+(RESPONSE) -- NUANCE
+
+ 
