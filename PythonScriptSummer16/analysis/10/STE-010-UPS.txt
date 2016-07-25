@@ -1,0 +1,50 @@
+(ranjini: okay, it's ready now)
+(kat: so you can start by saying hi or hello)
+hello
+hello
+(RESPONSE)
+yueming
+my name is yueming
+(RESPONSE)
+student
+student
+(RESPONSE)
+<...>
+(RESPONSE)
+china
+(RESPONSE)
+yes
+yes
+(RESPONSE)
+move
+move
+(RESPONSE)
+left
+(RESPONSE)
+yes
+yes
+(RESPONSE)
+turn
+(RESPONSE)
+right
+right
+(RESPONSE)
+yes (dog barking)
+yes
+(RESPONSE)
+move
+(RESPONSE)
+right
+(laugh) right
+(RESPONSE)
+yes
+(RESPONSE)
+move
+move
+move
+(RESPONSE)
+left
+(RESPONSE)
+no
+(RESPONSE)
+bye
