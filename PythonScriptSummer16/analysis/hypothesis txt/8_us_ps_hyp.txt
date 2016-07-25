@@ -1,7 +1,5 @@
 hey
 yeah
-
-
 my name is
 yeah
 turn
@@ -16,9 +14,6 @@ student
 computer science
 hi nico
 student
-
-
-
 hello
 move
 yeah
