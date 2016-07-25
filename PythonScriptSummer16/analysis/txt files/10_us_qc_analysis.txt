@@ -1,0 +1,17 @@
+Line 1: wc: 1, 2. same: False. distance: 2
+Line 2: wc: 1, 2. same: False. distance: 2
+Line 3: wc: 1, 4. same: False. distance: 4
+Line 4: wc: 1, 0. same: False. distance: 1
+Line 5: wc: 1, 2. same: False. distance: 2
+Line 6: wc: 1, 1. same: False. distance: 0
+Line 7: wc: 4, 3. same: False. distance: 1
+Line 8: wc: 3, 2. same: False. distance: 2
+Line 9: wc: 3, 1. same: False. distance: 2
+Line 10: wc: 2, 2. same: False. distance: 0
+Line 11: wc: 2, 4. same: False. distance: 4
+Line 12: wc: 2, 0. same: False. distance: 2
+Line 13: wc: 1, 1. same: False. distance: 1
+Line 14: wc: 2, 1. same: False. distance: 1
+Line 15: wc: 1, 1. same: False. distance: 0
+Line 16: wc: 1, 1. same: True. distance: 0
+Word error rate: 0.888888888889

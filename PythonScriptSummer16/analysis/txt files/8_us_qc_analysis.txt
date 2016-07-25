@@ -1,0 +1,14 @@
+Line 1: wc: 8, 4. same: False. distance: 8
+Line 2: wc: 2, 1. same: False. distance: 2
+Line 3: wc: 8, 5. same: False. distance: 6
+Line 4: wc: 1, 1. same: False. distance: 0
+Line 5: wc: 1, 1. same: False. distance: 1
+Line 6: wc: 4, 3. same: False. distance: 1
+Line 7: wc: 2, 1. same: False. distance: 1
+Line 8: wc: 7, 1. same: False. distance: 6
+Line 9: wc: 6, 7. same: False. distance: 7
+Line 10: wc: 5, 4. same: False. distance: 2
+Line 11: wc: 3, 1. same: False. distance: 2
+Line 12: wc: 3, 1. same: False. distance: 2
+Line 13: wc: 1, 1. same: True. distance: 0
+Word error rate: 0.745098039216
