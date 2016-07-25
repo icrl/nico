@@ -1,21 +1,13 @@
 greetings
 greetings
 greetings
-(RESPONSE)
 meghadeepa
 my name is meghadeepa
-(RESPONSE)
 i am a student
-(RESPONSE)
 physics and computer science
 my major is physics
-(RESPONSE)
 i am from india
-(RESPONSE)
 yes i am
-(RESPONSE)
-...okay
+ok
 can you turn
-(RESPONSE)
 can you turn to the right
-(RESPONSE)

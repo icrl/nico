@@ -1,26 +1,18 @@
 please call stella
-(RESPONSE)
-(RESPONSE)
-(RESPONSE)
 ask her 
-(RESPONSE)
-(RESPONSE)
 to bring these things from the store
-(RESPONSE)
-(RESPONSE)
-(RESPONSE)
-(RESPONSE)
-(RESPONSE)
-(RESPONSE)
-(RESPONSE)
-(ranjini: can you just say...)
-(RESPONSE)
+
+
+
+
+
+
+
+
 should i start again? 
-(ranjini: yes, you can just say the user dialogues?)
+yes, you can just say the user dialogues
 please call stella
-(ranjini: can you just say the user dialogues without expecting a response so we can get some recognition data)
 sure 
-(ranjini: thanks)
 please call stella
 ask her to bring these things from the store
 six spoons of fresh snow peas

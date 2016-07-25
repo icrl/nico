@@ -1,65 +1,51 @@
-(ranjini: it's ready now, it's ready)
 hi nico
-(RESPONSE)
 my name is meghadeepa
 (RESPONSE)
 i am a student at mount holyoke
-(lots of background noise with turtlebot)
 i am a student
 i am a student
 maybe it's the background music? 
 i am a student
 yes
-(kat: yes, both? just nothing happened, we just want to make sure)
 oh, if that's why she's whining? 
-(kat: is she a puppy?)
+is she a puppy?
 yes
-just start from the beginning? 
-(ranjini: start with student)
+just start from the beginning?
+
+
+start with student
 i am a student
 i am a professor
 is there an on off button? 
-(RESPONSE)
-(RESPONSE)
 i am from 
-(RESPONSE)
 india 
-(RESPONSE)
 yes i am
-(RESPONSE) 
 can you move? 
 i would like you to move
 move
-(RESPONSE)
 move forward
 it's blinking green
 move forward
 move forward
 thank you so much
-such a (garbled) so fussy
 where was i?
-(ranjini: forward)
 forward
-(RESPONSE)
+
 turn right
-(RESPONSE)
 turn right
 can you turn right? 
 turn right
-(RESPONSE --- NUANCE)
 move forward
+
 can you move forward? 
+
 am i saying it wrong? 
-(ranjini: it's still expecting a turn direction, so you can say right or left)
 oh
-turn right
-(RESPONSE)
+
+turn
+right
 move forward 
-(RESPONSE)
+
 do you want me to move or turn? 
-(RESPONSE)
 move
 move 
-
-
- 

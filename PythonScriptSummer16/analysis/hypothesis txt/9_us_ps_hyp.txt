@@ -1,5 +1,4 @@
 hey nico
-
 my name is
 hey
 yeah
@@ -9,7 +8,6 @@ yes
 my name
 my name is
 yeah
-
 hey
 hey
 computer
@@ -24,7 +22,6 @@ hey nico
 computer science
 
 move
-
 move
 student
 no
@@ -42,7 +39,6 @@ hey nico
 turn
 move
 yes
-
 hey nico
 my name
 ok
@@ -54,4 +50,3 @@ move
 move
 move
 yeah
-(null)
