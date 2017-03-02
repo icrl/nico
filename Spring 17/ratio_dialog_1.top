@@ -1,0 +1,11 @@
+topic: ~ratios()
+language: end
+concept:(operations) [add multiply] 
+concept:(numbers) [one 	two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty]
+concept:(confirmation) [yeah yes okay alright right]
+
+u:([{explain} {extend} {table}]) How do we do that? 
+u:(We can _[add multiply])  OK so we $1 $currentOp=$1
+u:(Ummm ~confirmation. So we _[add multiply] each column by ~numbers. That gives us the ~numbers ~numbers and d ~numbers) Ok and then what do we do? 
+u:(Then we find ~numbers by _[adding multiplying]. I just experiment with different numbers. And then we can get ~numbers) So to find the answer, we extend the table until we get $2 in the last column? $num=$2
+u:(~confirmation) Ok cool 
